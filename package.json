@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/patraz/tailwind-practice/issues"
   },
-  "homepage": "https://github.com/patraz/tailwind-practice#readme"
+  "homepage": "https://github.com/patraz/tailwind-practice#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
